@@ -3,31 +3,11 @@ package exercicio2;
 public class Turma {
     private Disciplina disciplina;
     private Professor professor;
-    private String calendario;
+    private String horario;
     
-    // constructor
-    Turma (Disciplina disciplina, Professor professor, String calendario){
-        this.disciplina = disciplina;
-        this.professor = professor;
-        this.calendario = calendario;
-    }
+    Turma (Disciplina disciplina, Professor professor, String horario){}
 
-    // getters
-    public String getCalendario() {
-        return calendario;
-    }
-    public Disciplina getDisciplina() {
-        return disciplina;
-    }
-    public Professor getProfessor() {
-        return professor;
-    }
-
-    // setters
-    public void setCalendario(String calendario) {
-        this.calendario = calendario;
-    }
-    public void setProfessor(Professor professor) {
-        this.professor = professor;
-    }
+    // OBTER O HORARIO DA AULA
+    // Retorna horário da aula
+    public String getHorario() {}
 }
