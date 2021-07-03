@@ -27,4 +27,7 @@ public class Turma {
     public void setCalendario(String calendario) {
         this.calendario = calendario;
     }
+    public void setProfessor(Professor professor) {
+        this.professor = professor;
+    }
 }
